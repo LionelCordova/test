@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* main.css */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: darkred;
+    background-color: darkgreen;
+}
+
+/* Texte en 2 fois la taille par défaut */
+.x2 {
+    font-size:2em;
+    margin-top: 30px;  /* pour éviter que margin=font-size sous FF */
+    margin-bottom: 30px;
+}
+
+/* Texte en 4 fois la taille par défaut */
+.x4 {
+    font-size:4em;
+    margin-top: 30px;  /* pour éviter que margin=font-size sous FF */
+    margin-bottom: 30px;
+}
+
+/* Tableau à 50 pixels du bord gauche */
+
+table {
+    margin-left: 100px;
+}
+
+/* -- Visualisation des bordures de tableau -- */
+
+table, th, td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+/* -- Taille des cellules -- */
+
+th, td {
+    width:50px;
+    height:50px;
+}
+
+th {
+    background-color: black;
+}
+
+
+h1 {
+    text-align: center;
+}
