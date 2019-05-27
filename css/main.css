@@ -5,7 +5,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: darkred;
-    background-color: darkgreen;
+    background-color: rgb(253, 101, 0);
 }
 
 /* Texte en 2 fois la taille par défaut */
@@ -33,8 +33,9 @@ table {
 table, th, td {
     border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: rgba(184, 3, 3, 0.856);
     border-collapse: collapse;
+    text-align: end;
 }
 
 /* -- Taille des cellules -- */
